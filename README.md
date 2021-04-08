@@ -9,9 +9,8 @@
 <li>Shuffle Sort (algoritmo di shuffling, ovvero un algoritmo di miscelazione)</li>
 </ul>
 <h2>Visualization</h2>
-<img>https://github.com/follen99/AlgorithmsAndDataStructures/blob/master/Visualization/Screens/BubbleSortVisualization.png</img>
 <p>Una raccolta di algoritmi di ordinamento scritti in <strong>P5js</strong> o <strong>Processing</strong> (Javascript o Java), che permettono di visualizzare il comportamento dell'algoritmo. In questa sezione &egrave; possibile trovare le seguenti visualizzazioni:</p>
 <ul>
-<li>Bubble Sort (Processing)</li>
+<li>Bubble Sort (Processing)&nbsp;<a href="https://github.com/follen99/AlgorithmsAndDataStructures/blob/master/Visualization/Screens/BubbleSortVisualization.png">Esempio</a></li>
 </ul>
 <p>&nbsp;</p>
