@@ -11,6 +11,6 @@
 <h2>Visualization</h2>
 <p>Una raccolta di algoritmi di ordinamento scritti in <strong>P5js</strong> o <strong>Processing</strong> (Javascript o Java), che permettono di visualizzare il comportamento dell'algoritmo. In questa sezione &egrave; possibile trovare le seguenti visualizzazioni:</p>
 <ul>
-<li>Bubble Sort (Processing)&nbsp;<a href="https://github.com/follen99/AlgorithmsAndDataStructures/blob/master/Visualization/Screens/BubbleSortVisualization.png">Esempio</a></li>
+<li>Bubble Sort (Processing)&nbsp;<a href="https://github.com/follen99/AlgorithmsAndDataStructures/blob/master/Visualization/Screens/BubbleSortVisualization.png">Screenshot</a></li>
 </ul>
 <p>&nbsp;</p>
