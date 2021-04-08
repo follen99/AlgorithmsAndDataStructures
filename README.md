@@ -1,5 +1,5 @@
 <h1>Algorithms and data structures</h1>
-Questa è la raccolta di algoritmi e strutture dati visti (oltre a qualche aggiunta personale) nel corso omonimo dell'università del sannio.
+Questa è la raccolta di <b>algoritmi e strutture dati</b> visti (oltre a qualche aggiunta personale) nel corso omonimo dell'università del sannio.
 <h2>Sorting_Algorithms</h2>
 <p>Una serie di Algoritmi volti alla comprensione degli algoritmi di ordinamento che ci circondano. In questa sezione si possono trovare i seguenti algoritmi:</p>
 <ul>
