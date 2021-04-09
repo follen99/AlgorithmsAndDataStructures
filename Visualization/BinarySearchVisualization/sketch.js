@@ -1,8 +1,9 @@
 var tree;
 
 function setup() {
-  //createCanvas(400, 400);
-  noCanvas();
+  createCanvas(600, 400);
+  background(51);
+  //noCanvas();
   
   tree = new Tree();
 
@@ -28,6 +29,6 @@ function setup() {
 
 
 
-function draw() {
+/*function draw() {
   background(220);
-}
+}*/

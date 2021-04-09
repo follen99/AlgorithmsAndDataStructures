@@ -10,6 +10,9 @@ function Tree(){
     var n = new Node(value)
     if(this.root == null){
       this.root = n;
+
+      this.root.x = width / 2;
+      this.root.y = 16;
     }else{
       this.root.addNode(n);
     }
