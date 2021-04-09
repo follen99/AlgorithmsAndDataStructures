@@ -12,7 +12,7 @@ function setup() {
   tree.addValue(7);
   tree.addValue(6);*/
 
-  for (let i = 0; i < 10; i++) {
+  for (var i = 0; i < 10; i++) {
     tree.addValue(floor(random(0,100)));
   }
 
@@ -20,8 +20,18 @@ function setup() {
 
   tree.traverse();
 
+  var result = tree.searchValue(10);
+  if(result == null){
+    console.log("Non trovato :/ !");
+  }else{
+    console.log("Trovato!");
+    console.log(result);
+  }
+
 
 }
+
+
 
 
 

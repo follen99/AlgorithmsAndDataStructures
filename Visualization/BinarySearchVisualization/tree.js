@@ -3,8 +3,8 @@ function Tree(){
   }
 
   Tree.prototype.traverse = function(){
-    this.root.visit();
-  }
+    this.root.visit(this.root);
+  };
   
   Tree.prototype.addValue = function(value){
     var n = new Node(value)
@@ -28,6 +28,6 @@ function Tree(){
       }else{
           console.log("Non trovato ! :/");
       }*/
-  }
+  };
   
  
