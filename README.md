@@ -8,17 +8,14 @@
 <li>Selection Sort</li>
 <li>Shell Sort</li>
 <li>Shuffle Sort (algoritmo di shuffling, ovvero un algoritmo di miscelazione)</li>
+<li>Quick Sort</li>
 </ul>
 <h2>Visualization</h2>
 <p>Una raccolta di algoritmi di ordinamento scritti in <strong>P5js</strong> o <strong>Processing</strong> (Javascript o Java), che permettono di visualizzare il comportamento dell'algoritmo. In questa sezione &egrave; possibile trovare le seguenti visualizzazioni:</p>
 <ul>
 <li>Bubble Sort (Processing)&nbsp;<a href="https://github.com/follen99/AlgorithmsAndDataStructures/blob/master/Visualization/Screens/BubbleSortVisualization.png">Screenshot</a> <a href="https://editor.p5js.org/giulianoranauroiphone1/full/fNTLAhfdH">Animation</a></li>
 <li>Quick Sort (P5JS)&nbsp;<a href="https://editor.p5js.org/giulianoranauroiphone1/full/wv5wrWFdx">Animation</a></li>
+<li>Binary Search (Qualche problema nella visualizzazione)&nbsp;<a href="https://editor.p5js.org/giulianoranauroiphone1/full/NMZ2Nb5Om">Animation</a></li>
+<li>Selection Sort&nbsp;<a href="https://editor.p5js.org/giulianoranauroiphone1/full/CbMGdfW3J">Animation</a></li>
 </ul>
 <p>&nbsp;</p>
-
-
-
-https://user-images.githubusercontent.com/74026278/114243345-afde8880-998c-11eb-96c6-abff1a51311f.mov
-
-
