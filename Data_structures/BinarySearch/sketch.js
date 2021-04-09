@@ -6,50 +6,25 @@ function setup() {
   
   tree = new Tree();
 
-  tree.addValue(5);
+  /*tree.addValue(5);
   tree.addValue(3);
   tree.addValue(7);
-  tree.addValue(6);
+  tree.addValue(6);*/
+
+  for (let i = 0; i < 10; i++) {
+    tree.addValue(floor(random(0,100)));
+  }
 
   console.log(tree);
 
-}
+  tree.traverse();
 
-function Tree(){
-  this.root = null;
-}
-
-Tree.prototype.addValue = function(value){
-  var n = new Node(value)
-  if(this.root == null){
-    this.root = n;
-  }else{
-    this.root.addNode(n);
-  }
 
 }
 
-Node.prototype.addNode = function(n){
-  if(n.value < this.value){
-    if(this.left == null){
-      this.left = n;
-    }else{
-      this.left.addNode(n);
-    }
-  }else if(n.value > this.value){
-    if(this.right == null){
-      this.right = n;
-    }else{
-      this.right.addNode(n);
-    }
-  }
-}
 
-function Node(value){
-  this.value = value;
-  this.left = null;
-  this.right = null;
-}
+
+
 
 
 
