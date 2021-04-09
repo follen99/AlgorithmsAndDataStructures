@@ -7,11 +7,13 @@ let speed = 1;
 
 let reset;
 
+let rectangleWidth = 10;
+
 
 function setup() {
   createCanvas(400, 300);  //finestra dove disegno gli elementi
   
-  values = new Array(width);
+  values = new Array(floor(width/rectangleWidth));
   randomize();
   
   
@@ -100,6 +102,9 @@ function draw() {
   
   stroke(255);
   for(let i = 0; i < values.length; i++){
-    line(i,height,i,height-values[i]);
+    //line(i,height,i,height-values[i]);
+    stroke(0);
+    fill(255);
+    rect(i*rectangleWidth , height-values[i], rectangleWidth, values[i]);
   }
 }
