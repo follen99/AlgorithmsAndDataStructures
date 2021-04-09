@@ -24,3 +24,23 @@
 <li>Binary Search Tree</li>
 </ul>
 <p>&nbsp;</p>
+
+<h3> To do </h3>
+<h4> Strutture dati </h4>
+<pre>
+<input type="checkbox">  Linked list
+<input type="checkbox">  Stack
+<input type="checkbox">  Queue
+<input type="checkbox">  Heap
+<input type="checkbox">  Graph
+<input type="checkbox">  Matrix
+<input type="checkbox">  Heap
+</pre>
+
+<h4> Algoritmi di ordinamento </h4>
+<pre>
+<input type="checkbox">  Recursive bubble sort
+<input type="checkbox">  Recursive insertion sort
+<input type="checkbox">  Heap sort
+<!--> <input type="checkbox">  <-->
+</pre>
