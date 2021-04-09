@@ -42,5 +42,4 @@
 <input type="checkbox">  Recursive bubble sort
 <input type="checkbox">  Recursive insertion sort
 <input type="checkbox">  Heap sort
-<!--> <input type="checkbox">  <-->
 </pre>
