@@ -18,4 +18,9 @@
 <li>Binary Search (Qualche problema nella visualizzazione)&nbsp;<a href="https://editor.p5js.org/giulianoranauroiphone1/full/NMZ2Nb5Om">Animation</a></li>
 <li>Selection Sort&nbsp;<a href="https://editor.p5js.org/giulianoranauroiphone1/full/CbMGdfW3J">Animation</a></li>
 </ul>
+<h2>Data_Structures</h2>
+<p>Una raccolta di strutture dati fondamentali:</p>
+<ul>
+<li>Binary Search Tree</li>
+</ul>
 <p>&nbsp;</p>
