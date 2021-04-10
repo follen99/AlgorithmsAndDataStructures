@@ -17,29 +17,27 @@
 <li>Quick Sort (P5JS)&nbsp;<a href="https://editor.p5js.org/giulianoranauroiphone1/full/wv5wrWFdx">Animation</a></li>
 <li>Binary Search (Qualche problema nella visualizzazione)&nbsp;<a href="https://editor.p5js.org/giulianoranauroiphone1/full/NMZ2Nb5Om">Animation</a></li>
 <li>Selection Sort&nbsp;<a href="https://editor.p5js.org/giulianoranauroiphone1/full/CbMGdfW3J">Animation</a></li>
+<li>Linked List&nbsp;<a href="https://editor.p5js.org/giulianoranauroiphone1/full/LEWAT6eXv">Animation</a></li>
 </ul>
 <h2>Data_Structures</h2>
 <p>Una raccolta di strutture dati fondamentali:</p>
 <ul>
 <li>Binary Search Tree</li>
+<li>Linked List</li>
 </ul>
 <p>&nbsp;</p>
-
-<h3> To do </h3>
-<h4> Strutture dati </h4>
-<pre>
-<input type="checkbox">  Linked list
-<input type="checkbox">  Stack
-<input type="checkbox">  Queue
-<input type="checkbox">  Heap
-<input type="checkbox">  Graph
-<input type="checkbox">  Matrix
-<input type="checkbox">  Heap
+<h3>To do</h3>
+<h4>Strutture dati</h4>
+<pre><input type="checkbox" />  Linked list  (fatto)
+<input type="checkbox" />  Stack
+<input type="checkbox" />  Queue
+<input type="checkbox" />  Heap
+<input type="checkbox" />  Graph
+<input type="checkbox" />  Matrix
+<input type="checkbox" />  Heap
 </pre>
-
-<h4> Algoritmi di ordinamento </h4>
-<pre>
-<input type="checkbox">  Recursive bubble sort
-<input type="checkbox">  Recursive insertion sort
-<input type="checkbox">  Heap sort
+<h4>Algoritmi di ordinamento</h4>
+<pre><input type="checkbox" />  Recursive bubble sort
+<input type="checkbox" />  Recursive insertion sort
+<input type="checkbox" />  Heap sort
 </pre>
