@@ -12,6 +12,7 @@ function setup() {
   console.log(node1);
 }
 
+
 function Node(){
   this.item = null;
   this.next = null;
