@@ -4,7 +4,7 @@ function LinkedList(){
 }
 
 LinkedList.prototype.createNode = function(element){
-    return {element, next: null}
+    return {element, next: null, x: null, y: null}
 }
 
 LinkedList.prototype.push = function(element){
@@ -25,6 +25,32 @@ LinkedList.prototype.push = function(element){
       return this.size;
 }
 
+LinkedList.prototype.removeAt = function(index){
+    var curr, prev, it = 0;
+    curr = this.head;
+    prev = curr;
+
+    // deleting first element
+    if (index === 0) {
+        this.head = curr.next;
+    } else {
+        // iterate over the list to the
+        // position to removce an element
+        while (it < index) {
+            it++;
+            prev = curr;
+            curr = curr.next;
+        }
+
+        // remove the element
+        prev.next = curr.next;
+    }
+    this.size--;
+
+    // return the remove element
+    return curr.element;
+}
+
 LinkedList.prototype.toString = function(){
     if (!this.size) return "";
   
@@ -40,7 +66,17 @@ LinkedList.prototype.toString = function(){
 }
 
 LinkedList.prototype.print = function(node){
-    console.log(node.element);
+    let string = "";
+    string += "Valore Nodo: "+node.element+"\n";
+    if(node.next!=null){
+        string += "Nodo successivo (valore): "+node.next.element+"\n";
+    }else{
+        string += "Ultimo nodo."
+    }
+    string += "X: "+node.x+" Y: "+node.y;
+
+    console.log(string);
+    
       if(node.next == null){
         return;
       }
@@ -81,7 +117,7 @@ LinkedList.prototype.insert = function(element, index = 0){
 
 LinkedList.prototype.get = function(index){
     if(index === undefined || index <0 || index > this.size) return  null;
-      if(index == 0) return this.head.element;  //ritorno l'elemento e non l'oggetto
+      if(index == 0) return this.head;  //ritorno l'elemento e non l'oggetto
 
       let current = this.head;
 
@@ -89,8 +125,27 @@ LinkedList.prototype.get = function(index){
         current = current.next;
       }
 
-      return current.element;
+      return current;
 }
+
+/*
+COMPLETAMENTE INUTILE!
+LinkedList.prototype.setXY = function(index, x, y){
+    if(index === undefined || index <0 || index > this.size) return  null;
+      if(index == 0){
+        this.head.x = x;
+        this.head.y = y;
+      }
+
+      let current = this.head;
+
+      for(let i=0; i<index; i++){
+        current = current.next;
+      }
+
+      current.x = x;
+      current.y = y;
+}*/
 
 LinkedList.prototype.indexOf = function(element){
     let current = this.head;
