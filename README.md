@@ -31,7 +31,7 @@
 <pre><input type="checkbox" />  Linked list  (fatto)
 <input type="checkbox" />  Stack
 <input type="checkbox" />  Queue
-<input type="checkbox" />  Heap               (fatto)
+<input type="checkbox" />  Heap         (fatto)
 <input type="checkbox" />  Graph
 <input type="checkbox" />  Matrix
 </pre>
