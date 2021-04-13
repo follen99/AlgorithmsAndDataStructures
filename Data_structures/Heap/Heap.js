@@ -60,6 +60,47 @@ MinHeap.prototype.bubbleDown = function(index){
     }
 }
 
+//nuova funzione bubble down semplificata
+/**
+ * 
+ * @param {Int} index 
+ * La funzione bubbleDown(index) era davvero troppo complessa (inutilmente)
+ * con questa nuova versione (tradotta in js dal libro ) il codice è molto piu leggibile ed ottimizzato.
+ * Come funziona? 
+ * Effettuiamo il sink quando una chiave diventa piu piccola di uno o entrambi i suoi figli, dobbiamo quindi 
+ * spostarla al livello INFERIORE. Effettuiamo lo scambio tra la chiave parent e la chiave figlio PIU GRANDE (tra i due)
+ * ed eseguo queste operazioni finchè l'heap non risulta ordinato.
+ */
+MinHeap.prototype.sink = function(index /** k nel libro */){
+    var n = this.data.length;       //elementi contenuti nell'array
+    while(2 * index <= n){          //finchè 2*index è minore del numero di elementi (ovvero finchè un nodo ha figli) 
+        var j = 2 * index;          //salvo il primo figlio
+        /**
+         * j DEVE essere minore di n
+         * Se inoltre j è minore di j+1, ovvero suo fratello
+         * j diventerà j+1, ovvero l'indice che punta al fratello 
+         * (dato che dobbiamo prendere il piu  grande tra i figli)
+         */
+        if(j < n && (j < j+1)) j++; 
+
+        /**
+         * se l'indice è maggiore di j (figlio)
+         * esco dal ciclo
+         * traducendo, usciamo se l'indice del padre è dopo quello del figlio
+         * (non dovrebbe succedere)
+         */
+        if(!(index < j)) break;
+        this.exch(index ,j);
+        index = j;
+    }
+}
+
+MinHeap.prototype.exch = function(firstIndex, secondIndex){
+    var temp = this.data[firstIndex];
+    this.data[firstIndex] = this.data[secondIndex];
+    this.data[secondIndex] = temp;
+}
+
 MinHeap.prototype.delMin = function(){
     var min = this.data[0];     //il primo elemento è sempre il piu piccolo
     
@@ -70,7 +111,9 @@ MinHeap.prototype.delMin = function(){
     this.data[0] = this.data.pop(); 
 
     //chiamo bubbleDown sul primo elemento in modo da riordinare il tutto
-    this.bubbleDown(0);
+    //this.bubbleDown(0);
+    this.sink(0);
+
 
     /**
      * essenzialmente ritorno il primo elemento
