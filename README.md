@@ -31,10 +31,9 @@
 <pre><input type="checkbox" />  Linked list  (fatto)
 <input type="checkbox" />  Stack
 <input type="checkbox" />  Queue
-<input type="checkbox" />  Heap
+<input type="checkbox" />  Heap               (fatto)
 <input type="checkbox" />  Graph
 <input type="checkbox" />  Matrix
-<input type="checkbox" />  Heap
 </pre>
 <h4>Algoritmi di ordinamento</h4>
 <pre><input type="checkbox" />  Recursive bubble sort
