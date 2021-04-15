@@ -25,7 +25,7 @@ public class BinaryTreePersonal {
         root = null;    //al momento della creazione la root è vuota.
     }
 
-    void insert(int key){
+    public void insert(int key){
         root = insertRec(root, key);    //chiamo il metodo ricorsivo
     }
 
@@ -34,7 +34,7 @@ public class BinaryTreePersonal {
      * lezione : 13-04-2021
      *
      * */
-    Node insertRec(Node root, int key){
+    private Node insertRec(Node root, int key){
         /**
          * Se inserisco il primo elemento dall'inizializzazione dell'albero binario
          * allora esso verrà impostato come radice dell'albero*/
@@ -51,8 +51,41 @@ public class BinaryTreePersonal {
         return root;
     }
 
+    public Node getMax(){
+        return max(this.root);
+    }
+
+    private Node max(Node root){
+        /**
+         * per prendere il massimo mi basta visitare i nodi destri finchè non trovo null*/
+        if(root == null){
+            return null;
+        }
+
+        if (root.right != null)
+            return max(root.right);
+        else return root;
+    }
+
     void printInOrder(){
         inOrder(root);  //parto dal primo nodo (root)
+    }
+
+    public Node getMin(){
+        return min(this.root);
+    }
+
+    private Node min(Node root){
+        /**
+         * per prendere il massimo mi basta visitare i nodi destri finchè non trovo null*/
+        if(root == null){
+            return null;
+        }
+
+        if (root.left != null)
+            return min(root.left);
+
+        else return root;
     }
 
     void inOrder(Node root){
@@ -108,7 +141,9 @@ public class BinaryTreePersonal {
 
 
 
-    Node getRoot(){
+
+
+    public Node getRoot(){
         return this.root;
     }
 
