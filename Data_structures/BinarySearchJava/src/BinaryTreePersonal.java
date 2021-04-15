@@ -19,14 +19,17 @@ public class BinaryTreePersonal {
         }
     }
 
-    Node root;      //creo una variabile di istanza che rappresenta la root del tree
+    private Node root;      //creo una variabile di istanza che rappresenta la root del tree
+    private int size;
 
     BinaryTreePersonal(){
         root = null;    //al momento della creazione la root è vuota.
+        size = 0;
     }
 
     public void insert(int key){
         root = insertRec(root, key);    //chiamo il metodo ricorsivo
+        size +=1;
     }
 
     /**
@@ -138,6 +141,14 @@ public class BinaryTreePersonal {
         return null;
     }
 
+    public int getSize(){
+        return size(this.root);
+    }
+    private int size(Node root){
+        if (this.root != null)
+            return this.size;
+        return 0;
+    }
 
 
 

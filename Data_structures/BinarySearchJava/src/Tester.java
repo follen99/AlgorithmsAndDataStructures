@@ -21,6 +21,6 @@ public class Tester {
 
 
         //tree.printInOrder();
-        System.out.println(tree.getMin().key);
+        System.out.println(tree.getSize());
     }
 }
