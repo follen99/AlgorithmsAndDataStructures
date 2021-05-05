@@ -24,6 +24,9 @@
 <ul>
 <li>Binary Search Tree</li>
 <li>Linked List</li>
+<li>Linked list</li>
+<li>Heap</li>
+<li>Graph</li>
 </ul>
 <p>&nbsp;</p>
 <h3>To do</h3>
@@ -33,7 +36,7 @@
 <input type="checkbox" />  Queue
 <input type="checkbox" />  Priority Queue
 <input type="checkbox" />  Heap         (fatto)
-<input type="checkbox" />  Graph
+<input type="checkbox" />  Graph        (fatto)
 <input type="checkbox" />  Matrix
 </pre>
 <h4>Algoritmi di ordinamento</h4>
