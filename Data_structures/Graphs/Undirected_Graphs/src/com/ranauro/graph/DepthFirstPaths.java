@@ -38,7 +38,11 @@ public  class DepthFirstPaths{
         return marked[v];
     }
 
-
+    /**
+     * @param v il vertice
+     * @return la sequenza (a partire dal vertice scelto) di vertici che conducono alla radice (s)
+     * @throws IllegalArgumentException se l'argomento (v) è {@code v <= 0 || v > V+1}
+     * */
     public Iterable<Integer> pathTo(int v){
         checkVertex(v);
         if (!hasPathTo(v))  return null;    //ritorno null se non c'è un path per v
