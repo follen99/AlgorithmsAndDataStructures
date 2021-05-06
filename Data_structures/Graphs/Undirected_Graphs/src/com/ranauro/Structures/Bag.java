@@ -4,7 +4,7 @@
  * Ide: Intellij
  * JDK: 1.8
  */
-package com.ranauro.graph;
+package com.ranauro.Structures;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

@@ -6,6 +6,8 @@
  */
 package com.ranauro.graph;
 
+import com.ranauro.Structures.Bag;
+
 public class Graph {
     public Graph(int V) {
         this.V = V;                         //inizializzo il numero di nodi
@@ -27,6 +29,10 @@ public class Graph {
 
     public int getV(){
         return this.V;
+    }
+
+    public Bag<Integer> getAdj(int v){
+        return adj[v];
     }
 
     private final int V;            //numero di nodi
