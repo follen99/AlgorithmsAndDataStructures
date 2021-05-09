@@ -9,7 +9,7 @@ package com.ranauro.tests;
 import com.ranauro.graph.DepthFirstPaths;
 import com.ranauro.graph.Graph;
 
-public class GraphFindPath {
+public class GraphDFSTest {
     public static void main(String[] args) {
         Graph graph = new Graph(10);     //creo un grafo di 5 elementi
         graph.addEdge(1,2);
