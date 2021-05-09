@@ -25,7 +25,7 @@ public class WhiteList {
 
         for (String word : words){
             assert whiteList != null;
-            if (whiteList.contains(word))
+            if (whiteList.contains(word.toLowerCase()))
                 System.out.print(word+" ");
         }
     }
